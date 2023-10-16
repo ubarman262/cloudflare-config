@@ -1,7 +1,9 @@
 tunnel: 92182b8a-47fa-480c-9ff1-82468b23f648
 credentials-file: C:\Users\Admin\.cloudflared\92182b8a-47fa-480c-9ff1-82468b23f648.json
 ingress:
-  - hostname: jellyfin.mzxt.eu
+  - hostname: play.mzxt.eu
+    service: http://localhost:8096
+  - hostname: www.mzxt.eu
     service: http://localhost:8096
   - hostname: radarr.mzxt.eu
     service: http://localhost:7878
