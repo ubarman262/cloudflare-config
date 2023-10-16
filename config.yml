@@ -15,5 +15,7 @@ ingress:
     service: http://localhost:80
   - hostname: send.mzxt.eu
     service: http://localhost:1119
+  - hostname: jenkins.mzxt.eu
+    service: http://localhost:4714
     
   - service: http_status:404
