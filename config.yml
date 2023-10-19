@@ -21,5 +21,7 @@ ingress:
     service: http://localhost:4714
   - hostname: system.mzxt.in
     service: http://localhost:2917
-    
+  - hostname: systemapi.mzxt.in
+    service: http://localhost:2916
+
   - service: http_status:404
