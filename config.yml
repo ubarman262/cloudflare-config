@@ -19,5 +19,7 @@ ingress:
     service: http://localhost:1119
   - hostname: jenkins.mzxt.in
     service: http://localhost:4714
+  - hostname: system.mzxt.in
+    service: http://localhost:2917
     
   - service: http_status:404
