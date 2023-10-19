@@ -1,19 +1,23 @@
-tunnel: 92182b8a-47fa-480c-9ff1-82468b23f648
-credentials-file: C:\Users\Admin\.cloudflared\92182b8a-47fa-480c-9ff1-82468b23f648.json
+tunnel: c6653f5f-c632-4063-b989-cc2276d6f389
+credentials-file: C:\Users\Admin\.cloudflared\c6653f5f-c632-4063-b989-cc2276d6f389.json
 ingress:
-  - hostname: jellyfin.mzxt.eu
+  - hostname: www.mzxt.in
     service: http://localhost:8096
-  - hostname: radarr.mzxt.eu
+  - hostname: play.mzxt.in
+    service: http://localhost:8096
+  - hostname: radarr.mzxt.in
     service: http://localhost:7878
-  - hostname: sonarr.mzxt.eu
+  - hostname: sonarr.mzxt.in
     service: http://localhost:8989
-  - hostname: qbit.mzxt.eu
+  - hostname: qbit.mzxt.in
     service: http://localhost:7474
-  - hostname: prowlarr.mzxt.eu
+  - hostname: prowlarr.mzxt.in
     service: http://localhost:9696
-  - hostname: apps.mzxt.eu
+  - hostname: apps.mzxt.in
     service: http://localhost:80
-  - hostname: send.mzxt.eu
+  - hostname: send.mzxt.in
     service: http://localhost:1119
+  - hostname: jenkins.mzxt.in
+    service: http://localhost:4714
     
   - service: http_status:404
