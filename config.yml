@@ -27,5 +27,7 @@ ingress:
     service: http://localhost:8056
   - hostname: request.mzxt.in
     service: http://localhost:5055
+  - hostname: linux.mzxt.in
+    service: http://localhost:3784
 
   - service: http_status:404
